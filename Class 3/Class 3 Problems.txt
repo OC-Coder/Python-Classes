@@ -1,0 +1,46 @@
+PYTHON CLASS 2 EXERCISES:
+
+FUNCTIONS:
+
+1. Write a function that takes a a numerical grade (0-100) as input and returns (not prints) a
+letter grade (A+, A, A-, B+, B, B-, etc.).
+
+2. Write functions that convert from (a) Fahrenheit to Celcius, (b) Celcius to Fahrenheit,
+(c) Fahrenheit to Kelvin, and (d) Kelvin to Fahrenheit.  Then, try doing (c) and (d) again, 
+except this time having (c) call (a) and (d) call (b) as part of how they calculate the conversion.
+
+LOOPS:
+
+3. Write a function that takes a list of numbers and returns how many even numbers are in that list.  
+Then write a function that takes a list and prints out how many odd numbers are in that list.  
+The second function must call the first function.
+
+4. Write a function that takes a list of numbers and returns the largest number.  Then write a
+function that returns the smallest number.  Finally, write a function that returns the mean (average).
+
+5. Write a function that takes two lists of numbers of the same length and returns a list of the sums
+of the corresponding elements of each list.  For example, [1,2,3] and [4,5,6] would produce [5,7,9].
+Then do this for subtraction, multiplication, and division.
+
+6. Write a function that takes two lists of numbers of the same length and returns the sum of the
+products of corresponding elements.  For example, [1,2,3] and [4,5,6] would produce 1x4 + 2x5 + 3x6 = 32.
+
+7. Write a function that takes a list of strings and returns out a "sentence" of those strings by
+concatenating all of them with spaces in between.  For example, ["Hello","World","!"] would produce
+"Hello World !".
+
+8. Do numbers 3 through 7 with while loops instead of for loops.
+
+9. Write a function that takes a list of numbers and keeps increasing each element of that list by 1
+until all elements are greater than 9000, returning the result.  For example, [1,2,3] would produce
+[9001, 9002, 9003].  Do this with a while loop and a for loop, and a function from an earlier exercise.
+You'll have to copy the code from the previous exercise into your code for this exercise in order for
+it to run.
+
+CHALLENGE: These are for next class; we haven't gone over the concepts yet, so there are no solutions
+
+10. Write two functions that do the same as exercise 5 for addition and multiplication, except with a
+list of lists.  For example, for addition, an input of [ [1,2,3], [4,5,6], [7,8,9] ] returns [12, 15, 18],
+while for multiplication, [ [1,2,3], [4,5,6], [7,8,9] ] returns [28, 80, 162].
+
+11. Write a function that takes in a number n and finds all of the primes less than n.
